@@ -33,5 +33,6 @@ SPARK_HOME=/spark-2.4.6-bin-hadoop2.7/
 export PYSPARK_PYTHON=/Python-3.6.0/python
 
 alias spark-submit=/spark-2.4.6-bin-hadoop2.7/bin/spark-submit
-alias beeline="$HIVE_HOME/bin/beeline -u jdbc:hive2://"
+alias beeline="$HIVE_HOME/bin/beeline -u jdbc:hive2://" #or $HIVE_HOME/bin/beeline -u jdbc:hive2://$HS2_HOST:$HS2_PORT
 alias pyspark=/spark-2.4.6-bin-hadoop2.7/bin/pyspark
+alias hcat=$HIVE_HOME/hcatalog/bin/hcat
